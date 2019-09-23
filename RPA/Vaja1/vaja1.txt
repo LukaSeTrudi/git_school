@@ -1,0 +1,118 @@
+1nal
+using System;
+/*
+Napisite program, ki prebere tri realna stevila. Nato na ekran izpisite
+manjse izmed prebranih stevil. Iskanje manjsega stevila zapisite kot
+funkcijo, ki prejme za parametre tri realna stevila in kot rezultat vrne
+najmanjse med njimi
+*/
+public class Program
+{
+	public static double iskanje(double first, double second, double third) {
+		double val = 0.0;
+		if(first <= second && first <= third) {
+			val = first;
+		}
+		else if(second <= first && second <= third) {
+			val = second;
+		}
+		else if(third <= first && third <= second) {
+			val = third;
+		}
+		return val;
+	}
+	public static void Main()
+	{
+		double first, second, third;
+		first = Convert.ToDouble(Console.ReadLine());
+		second = Convert.ToDouble(Console.ReadLine());
+		third = Convert.ToDouble(Console.ReadLine());
+		Console.WriteLine(iskanje(first, second, third));
+	}
+}
+2nal
+using System;
+/*
+Napisite funkcijo, ki preko parametra prejme eno celo stevilo in vrne,
+koliko stevk ima to celo stevilo. Funkcijo preizkusite s klicem znotraj
+glavnega programa nad razli£nimi vrednostmi.
+*/
+public class Program
+{
+	public static int stevke(int num) {
+		return num.ToString().Length;
+	}
+	public static void Main()
+	{
+		int num;
+		num = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine(stevke(num));
+	}
+}
+3 nal
+using System;
+/*
+Napisite funkcijo, ki za parameter prejme dve celi stevili in kot rezultat
+vrne ti dve stevili staknjeni. Na primer, ce bi prvo stevilo bilo 23 in
+drugo 59, mora funkcija kot rezultat vrniti 2359. Preizkusite, za kako
+velika stevila dobite se pravilen rezultat in pojasnite, zakaj pri vecjih
+stevilih dobimo napacen rezultat.
+*/
+public class Program
+{
+	public static string staknjeni(string first, string second) {
+		return first + second;
+	}
+	public static void Main()
+	{
+		int first, second;
+		first = Convert.ToInt32(Console.ReadLine());
+		second = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine(staknjeni(first.ToString(), second.ToString()));
+	}
+}
+4 nal
+using System;
+/*
+Napisite funkcijo, ki zamenja vrednost dveh spremenljivk.
+*/
+public class Program
+{
+	public static int zamenjaj(int str) {
+		return str;
+	}
+	public static void Main()
+	{
+		int first, second;
+		first = Convert.ToInt32(Console.ReadLine());
+		second = Convert.ToInt32(Console.ReadLine());
+		int vr = second;
+		second = zamenjaj(first);
+		first = zamenjaj(vr);
+		Console.WriteLine(first);
+		Console.WriteLine(second);
+	}
+}
+
+5 nal
+using System;
+/*
+Napisite funkcijo, ki vrne vsoto stevk podanega celega stevila.
+*/
+public class Program
+{
+	public static int vsota(string str) {
+		int vsota = 0;
+		for(int i=0; i < str.Length; i++) {
+			vsota += Convert.ToInt32(str[i].ToString());
+		}
+		return vsota;
+	}
+	public static void Main()
+	{
+		string str;
+		str = Console.ReadLine();
+		Console.WriteLine(vsota(str));
+	}
+}
+
