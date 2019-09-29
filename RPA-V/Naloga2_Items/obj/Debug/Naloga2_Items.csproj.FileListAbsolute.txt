@@ -1,0 +1,17 @@
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\bin\Debug\Naloga2_Items.dll.config
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\bin\Debug\Naloga2_Items.dll
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\bin\Debug\Naloga2_Items.pdb
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\bin\Debug\EntityFramework.dll
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\bin\Debug\System.Data.SQLite.dll
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\bin\Debug\EntityFramework.xml
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\bin\Debug\System.Data.SQLite.xml
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\obj\Debug\Naloga2_Items.csprojAssemblyReference.cache
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\obj\Debug\Naloga2_Items.csproj.CoreCompileInputs.cache
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\obj\Debug\Naloga2_Items.csproj.CopyComplete
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\obj\Debug\Naloga2_Items.dll
+C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\obj\Debug\Naloga2_Items.pdb

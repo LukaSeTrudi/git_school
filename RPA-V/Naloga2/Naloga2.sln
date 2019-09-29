@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naloga2", "Naloga2.csproj", "{9A9ABDFA-1D88-46D7-B987-2C2E8E9BEDD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Items", "Items\Items.csproj", "{799636EE-0D86-4BC1-8042-7A9DDE15C836}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naloga2_Items", "..\Naloga2_Items\Naloga2_Items.csproj", "{2C0B2F4E-83D8-400A-AF57-B74919E4D1B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{9A9ABDFA-1D88-46D7-B987-2C2E8E9BEDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A9ABDFA-1D88-46D7-B987-2C2E8E9BEDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A9ABDFA-1D88-46D7-B987-2C2E8E9BEDD2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{799636EE-0D86-4BC1-8042-7A9DDE15C836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{799636EE-0D86-4BC1-8042-7A9DDE15C836}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{799636EE-0D86-4BC1-8042-7A9DDE15C836}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{799636EE-0D86-4BC1-8042-7A9DDE15C836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0B2F4E-83D8-400A-AF57-B74919E4D1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0B2F4E-83D8-400A-AF57-B74919E4D1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0B2F4E-83D8-400A-AF57-B74919E4D1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0B2F4E-83D8-400A-AF57-B74919E4D1B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

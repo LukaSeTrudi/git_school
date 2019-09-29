@@ -1,6 +1,0 @@
-C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2\Items\bin\Debug\netstandard2.0\Items.deps.json
-C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2\Items\bin\Debug\netstandard2.0\Items.dll
-C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2\Items\obj\Debug\netstandard2.0\Items.csprojAssemblyReference.cache
-C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2\Items\obj\Debug\netstandard2.0\Items.csproj.CoreCompileInputs.cache
-C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2\Items\obj\Debug\netstandard2.0\Items.AssemblyInfoInputs.cache
-C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2\Items\obj\Debug\netstandard2.0\Items.AssemblyInfo.cs

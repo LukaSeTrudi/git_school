@@ -28,13 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btn_addIzdelek = new System.Windows.Forms.Button();
+            this.btn_showIzdelke = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btn_addIzdelek
+            // 
+            this.btn_addIzdelek.Location = new System.Drawing.Point(166, 38);
+            this.btn_addIzdelek.Name = "btn_addIzdelek";
+            this.btn_addIzdelek.Size = new System.Drawing.Size(180, 65);
+            this.btn_addIzdelek.TabIndex = 0;
+            this.btn_addIzdelek.Text = "Dodaj Izdelek";
+            this.btn_addIzdelek.UseVisualStyleBackColor = true;
+            this.btn_addIzdelek.Click += new System.EventHandler(this.Btn_addIzdelek_Click);
+            // 
+            // btn_showIzdelke
+            // 
+            this.btn_showIzdelke.Location = new System.Drawing.Point(166, 124);
+            this.btn_showIzdelke.Name = "btn_showIzdelke";
+            this.btn_showIzdelke.Size = new System.Drawing.Size(180, 65);
+            this.btn_showIzdelke.TabIndex = 1;
+            this.btn_showIzdelke.Text = "Pokazi Izdelke";
+            this.btn_showIzdelke.UseVisualStyleBackColor = true;
+            this.btn_showIzdelke.Click += new System.EventHandler(this.Btn_showIzdelke_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(513, 249);
+            this.Controls.Add(this.btn_showIzdelke);
+            this.Controls.Add(this.btn_addIzdelek);
+            this.Name = "Form1";
+            this.Text = "Naloga2";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btn_addIzdelek;
+        private System.Windows.Forms.Button btn_showIzdelke;
     }
 }
 
