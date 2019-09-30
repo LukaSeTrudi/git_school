@@ -1,0 +1,7 @@
+C:\Users\lukap\Desktop\git_sola\RPA\VajaVozilo\VajaVozilo\obj\Debug\VajaVozilo.csprojAssemblyReference.cache
+C:\Users\lukap\Desktop\git_sola\RPA\VajaVozilo\VajaVozilo\obj\Debug\VajaVozilo.csproj.CoreCompileInputs.cache
+C:\Users\lukap\Desktop\git_sola\RPA\VajaVozilo\VajaVozilo\bin\Debug\VajaVozilo.exe.config
+C:\Users\lukap\Desktop\git_sola\RPA\VajaVozilo\VajaVozilo\bin\Debug\VajaVozilo.exe
+C:\Users\lukap\Desktop\git_sola\RPA\VajaVozilo\VajaVozilo\bin\Debug\VajaVozilo.pdb
+C:\Users\lukap\Desktop\git_sola\RPA\VajaVozilo\VajaVozilo\obj\Debug\VajaVozilo.exe
+C:\Users\lukap\Desktop\git_sola\RPA\VajaVozilo\VajaVozilo\obj\Debug\VajaVozilo.pdb
