@@ -143,7 +143,7 @@
             this.Controls.Add(this.input_desc);
             this.Controls.Add(this.input_name);
             this.Name = "EditItem";
-            this.Text = "EditItem";
+            this.Text = "Uredi";
             this.ResumeLayout(false);
             this.PerformLayout();
 

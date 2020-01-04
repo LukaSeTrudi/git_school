@@ -11,7 +11,6 @@ C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\bin\Debug\EntityFramework.Sq
 C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\bin\Debug\System.Data.SQLite.xml
 C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\bin\Debug\System.Data.SQLite.dll.config
 C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\obj\Debug\Naloga2_Items.csprojAssemblyReference.cache
-C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\obj\Debug\Naloga2_Items.csproj.CoreCompileInputs.cache
 C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\obj\Debug\Naloga2_Items.csproj.CopyComplete
 C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\obj\Debug\Naloga2_Items.dll
 C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga2_Items\obj\Debug\Naloga2_Items.pdb
