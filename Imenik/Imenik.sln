@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imenik", "Imenik.csproj", "{BA0C65C2-96B7-4574-8B20-3397325B46E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA0C65C2-96B7-4574-8B20-3397325B46E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0C65C2-96B7-4574-8B20-3397325B46E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0C65C2-96B7-4574-8B20-3397325B46E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0C65C2-96B7-4574-8B20-3397325B46E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F15FA590-7C3F-4241-94C3-B5E7D25A48C4}
+	EndGlobalSection
+EndGlobal
