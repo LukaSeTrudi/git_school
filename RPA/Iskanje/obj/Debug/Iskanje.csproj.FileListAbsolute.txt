@@ -1,0 +1,9 @@
+C:\Users\lukap\Desktop\files\git_sola\RPA\Iskanje\bin\Debug\Iskanje.exe.config
+C:\Users\lukap\Desktop\files\git_sola\RPA\Iskanje\bin\Debug\Iskanje.exe
+C:\Users\lukap\Desktop\files\git_sola\RPA\Iskanje\bin\Debug\Iskanje.pdb
+C:\Users\lukap\Desktop\files\git_sola\RPA\Iskanje\obj\Debug\Iskanje.csprojAssemblyReference.cache
+C:\Users\lukap\Desktop\files\git_sola\RPA\Iskanje\obj\Debug\Iskanje.Form1.resources
+C:\Users\lukap\Desktop\files\git_sola\RPA\Iskanje\obj\Debug\Iskanje.Properties.Resources.resources
+C:\Users\lukap\Desktop\files\git_sola\RPA\Iskanje\obj\Debug\Iskanje.csproj.GenerateResource.cache
+C:\Users\lukap\Desktop\files\git_sola\RPA\Iskanje\obj\Debug\Iskanje.exe
+C:\Users\lukap\Desktop\files\git_sola\RPA\Iskanje\obj\Debug\Iskanje.pdb

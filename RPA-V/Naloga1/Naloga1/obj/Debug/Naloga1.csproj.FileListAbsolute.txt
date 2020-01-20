@@ -40,7 +40,6 @@ C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga1\Naloga1\obj\Debug\Naloga1.Properti
 C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga1\Naloga1\obj\Debug\Naloga1.TimeAdd.resources
 C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga1\Naloga1\obj\Debug\Naloga1.Verification.resources
 C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga1\Naloga1\obj\Debug\Naloga1.csproj.GenerateResource.cache
-C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga1\Naloga1\obj\Debug\Naloga1.csproj.CoreCompileInputs.cache
 C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga1\Naloga1\obj\Debug\Naloga1.csproj.CopyComplete
 C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga1\Naloga1\obj\Debug\Naloga1.exe
 C:\Users\lukap\Desktop\git_sola\RPA-V\Naloga1\Naloga1\obj\Debug\Naloga1.pdb
