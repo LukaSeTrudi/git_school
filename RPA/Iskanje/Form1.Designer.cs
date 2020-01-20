@@ -39,7 +39,7 @@
             this.button_urediizbiranjem = new System.Windows.Forms.Button();
             this.button_uredivstavljanjem = new System.Windows.Forms.Button();
             this.button_uredimehurcki = new System.Windows.Forms.Button();
-            this.button_hitrouredi = new System.Windows.Forms.Button();
+            this.button_hitrovstavi = new System.Windows.Forms.Button();
             this.result = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -128,6 +128,7 @@
             this.button_urediizbiranjem.TabIndex = 8;
             this.button_urediizbiranjem.Text = "Uredi z izbiranjem";
             this.button_urediizbiranjem.UseVisualStyleBackColor = true;
+            this.button_urediizbiranjem.Click += new System.EventHandler(this.button_urediizbiranjem_Click);
             // 
             // button_uredivstavljanjem
             // 
@@ -147,32 +148,33 @@
             this.button_uredimehurcki.Text = "Uredi z mehurcki";
             this.button_uredimehurcki.UseVisualStyleBackColor = true;
             // 
-            // button_hitrouredi
+            // button_hitrovstavi
             // 
-            this.button_hitrouredi.Location = new System.Drawing.Point(330, 285);
-            this.button_hitrouredi.Name = "button_hitrouredi";
-            this.button_hitrouredi.Size = new System.Drawing.Size(94, 52);
-            this.button_hitrouredi.TabIndex = 11;
-            this.button_hitrouredi.Text = "Hitro uredi";
-            this.button_hitrouredi.UseVisualStyleBackColor = true;
-            this.button_hitrouredi.Click += new System.EventHandler(this.button_hitrouredi_Click);
+            this.button_hitrovstavi.Location = new System.Drawing.Point(330, 285);
+            this.button_hitrovstavi.Name = "button_hitrovstavi";
+            this.button_hitrovstavi.Size = new System.Drawing.Size(94, 52);
+            this.button_hitrovstavi.TabIndex = 11;
+            this.button_hitrovstavi.Text = "Hitro vstavi";
+            this.button_hitrovstavi.UseVisualStyleBackColor = true;
+            this.button_hitrovstavi.Click += new System.EventHandler(this.button_hitrouredi_Click);
             // 
             // result
             // 
             this.result.AutoSize = true;
-            this.result.Location = new System.Drawing.Point(37, 251);
+            this.result.Location = new System.Drawing.Point(34, 226);
             this.result.Name = "result";
             this.result.Size = new System.Drawing.Size(48, 17);
             this.result.TabIndex = 12;
             this.result.Text = "Result";
+            this.result.Click += new System.EventHandler(this.result_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 379);
+            this.ClientSize = new System.Drawing.Size(457, 400);
             this.Controls.Add(this.result);
-            this.Controls.Add(this.button_hitrouredi);
+            this.Controls.Add(this.button_hitrovstavi);
             this.Controls.Add(this.button_uredimehurcki);
             this.Controls.Add(this.button_uredivstavljanjem);
             this.Controls.Add(this.button_urediizbiranjem);
@@ -204,7 +206,7 @@
         private System.Windows.Forms.Button button_urediizbiranjem;
         private System.Windows.Forms.Button button_uredivstavljanjem;
         private System.Windows.Forms.Button button_uredimehurcki;
-        private System.Windows.Forms.Button button_hitrouredi;
+        private System.Windows.Forms.Button button_hitrovstavi;
         private System.Windows.Forms.Label result;
     }
 }

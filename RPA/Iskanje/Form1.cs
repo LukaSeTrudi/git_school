@@ -57,6 +57,17 @@ namespace Iskanje
 
         private void button_hitrouredi_Click(object sender, EventArgs e)
         {
+            tab.Vstavi();
+            result.Text = tab.ToString();
+        }
+
+        private void result_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_urediizbiranjem_Click(object sender, EventArgs e)
+        {
             tab.Uredi();
             result.Text = tab.ToString();
         }
@@ -92,7 +103,8 @@ namespace Iskanje
             //ToString() - vrne elemente tabele, ločene z vejicami
             for (int i = 0; i < dolzina; i++)
             {
-                l += Tabela[i] + ", ";
+                string st = i % 7 == 0 ? "\n" : " ";
+                l += Tabela[i] + ", " + st;
             }
             return l;
         }
@@ -132,6 +144,15 @@ namespace Iskanje
             return max;
             //Max() - vrne maksimalno število v tabeli
         }
+        public void Vstavi()
+        {
+            Random rnd = new Random();
+            dolzina = 100;
+            for(int i = 0; i < 100; i++)
+            {
+                Tabela[i] = rnd.Next(0, 100);
+            }
+        }
         public double Povprecje()
         {
             //Povprečje() - vrne povprečje števil v tabeli
@@ -140,20 +161,21 @@ namespace Iskanje
         public bool VsebujeBinarno(int x)
         {
             //VsebujeBinarno(int x) - vrne true, če tabela vsebuje število x; če ne, vrne false - z BINARNIM iskanjem
-            int low = 0;
-            int high = dolzina;
-            int mid = high / 2;
-            while (true)
+
+            int min = 0;
+            int mid;
+            int max = dolzina - 1;
+            do
             {
-                if (low >= high)
-                    return false;
+                mid = (min + max) / 2;
                 if (x == Tabela[mid])
                     return true;
-                if (x > Tabela[mid])
-                    low = mid - 1;
+                else if (x < Tabela[mid])
+                    max = mid - 1;
                 else
-                    high = mid + 1;
-            }
+                    min = mid + 1;
+            } while (min <= max);
+            return false;
         }
         public void Uredi()
         {
