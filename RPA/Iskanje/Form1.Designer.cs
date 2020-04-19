@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button_dodaj = new System.Windows.Forms.Button();
             this.button_max = new System.Windows.Forms.Button();
@@ -37,10 +38,13 @@
             this.button_vsebuje = new System.Windows.Forms.Button();
             this.button_vsebujebinarno = new System.Windows.Forms.Button();
             this.button_urediizbiranjem = new System.Windows.Forms.Button();
-            this.button_uredivstavljanjem = new System.Windows.Forms.Button();
             this.button_uredimehurcki = new System.Windows.Forms.Button();
             this.button_hitrovstavi = new System.Windows.Forms.Button();
             this.result = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.button2 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -112,7 +116,7 @@
             // 
             // button_vsebujebinarno
             // 
-            this.button_vsebujebinarno.Location = new System.Drawing.Point(330, 22);
+            this.button_vsebujebinarno.Location = new System.Drawing.Point(461, 13);
             this.button_vsebujebinarno.Name = "button_vsebujebinarno";
             this.button_vsebujebinarno.Size = new System.Drawing.Size(94, 52);
             this.button_vsebujebinarno.TabIndex = 7;
@@ -122,7 +126,7 @@
             // 
             // button_urediizbiranjem
             // 
-            this.button_urediizbiranjem.Location = new System.Drawing.Point(330, 87);
+            this.button_urediizbiranjem.Location = new System.Drawing.Point(461, 78);
             this.button_urediizbiranjem.Name = "button_urediizbiranjem";
             this.button_urediizbiranjem.Size = new System.Drawing.Size(94, 52);
             this.button_urediizbiranjem.TabIndex = 8;
@@ -130,31 +134,23 @@
             this.button_urediizbiranjem.UseVisualStyleBackColor = true;
             this.button_urediizbiranjem.Click += new System.EventHandler(this.button_urediizbiranjem_Click);
             // 
-            // button_uredivstavljanjem
-            // 
-            this.button_uredivstavljanjem.Location = new System.Drawing.Point(330, 149);
-            this.button_uredivstavljanjem.Name = "button_uredivstavljanjem";
-            this.button_uredivstavljanjem.Size = new System.Drawing.Size(94, 52);
-            this.button_uredivstavljanjem.TabIndex = 9;
-            this.button_uredivstavljanjem.Text = "Uredi z vstavljanjem";
-            this.button_uredivstavljanjem.UseVisualStyleBackColor = true;
-            // 
             // button_uredimehurcki
             // 
-            this.button_uredimehurcki.Location = new System.Drawing.Point(330, 217);
+            this.button_uredimehurcki.Location = new System.Drawing.Point(461, 208);
             this.button_uredimehurcki.Name = "button_uredimehurcki";
             this.button_uredimehurcki.Size = new System.Drawing.Size(94, 52);
             this.button_uredimehurcki.TabIndex = 10;
             this.button_uredimehurcki.Text = "Uredi z mehurcki";
             this.button_uredimehurcki.UseVisualStyleBackColor = true;
+            this.button_uredimehurcki.Click += new System.EventHandler(this.button_uredimehurcki_Click);
             // 
             // button_hitrovstavi
             // 
-            this.button_hitrovstavi.Location = new System.Drawing.Point(330, 285);
+            this.button_hitrovstavi.Location = new System.Drawing.Point(361, 143);
             this.button_hitrovstavi.Name = "button_hitrovstavi";
             this.button_hitrovstavi.Size = new System.Drawing.Size(94, 52);
             this.button_hitrovstavi.TabIndex = 11;
-            this.button_hitrovstavi.Text = "Hitro vstavi";
+            this.button_hitrovstavi.Text = "Napolni nakljucno";
             this.button_hitrovstavi.UseVisualStyleBackColor = true;
             this.button_hitrovstavi.Click += new System.EventHandler(this.button_hitrouredi_Click);
             // 
@@ -168,15 +164,36 @@
             this.result.Text = "Result";
             this.result.Click += new System.EventHandler(this.result_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(461, 276);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 52);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Hitro uredi";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(461, 143);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(94, 52);
+            this.button2.TabIndex = 14;
+            this.button2.Text = "Napolni urejeno";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 400);
+            this.ClientSize = new System.Drawing.Size(573, 400);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.result);
             this.Controls.Add(this.button_hitrovstavi);
             this.Controls.Add(this.button_uredimehurcki);
-            this.Controls.Add(this.button_uredivstavljanjem);
             this.Controls.Add(this.button_urediizbiranjem);
             this.Controls.Add(this.button_vsebujebinarno);
             this.Controls.Add(this.button_vsebuje);
@@ -188,6 +205,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,10 +222,12 @@
         private System.Windows.Forms.Button button_vsebuje;
         private System.Windows.Forms.Button button_vsebujebinarno;
         private System.Windows.Forms.Button button_urediizbiranjem;
-        private System.Windows.Forms.Button button_uredivstavljanjem;
         private System.Windows.Forms.Button button_uredimehurcki;
         private System.Windows.Forms.Button button_hitrovstavi;
         private System.Windows.Forms.Label result;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.BindingSource bindingSource1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

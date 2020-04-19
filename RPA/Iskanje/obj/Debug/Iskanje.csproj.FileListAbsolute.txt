@@ -7,3 +7,4 @@ C:\Users\lukap\Desktop\files\git_sola\RPA\Iskanje\obj\Debug\Iskanje.Properties.R
 C:\Users\lukap\Desktop\files\git_sola\RPA\Iskanje\obj\Debug\Iskanje.csproj.GenerateResource.cache
 C:\Users\lukap\Desktop\files\git_sola\RPA\Iskanje\obj\Debug\Iskanje.exe
 C:\Users\lukap\Desktop\files\git_sola\RPA\Iskanje\obj\Debug\Iskanje.pdb
+C:\Users\lukap\Desktop\files\git_sola\RPA\Iskanje\obj\Debug\Iskanje.Timer.resources

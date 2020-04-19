@@ -13,10 +13,13 @@ namespace Iskanje
     public partial class Form1 : Form
     {
         Tab tab;
+        Timer tim;
         public Form1()
         {
             InitializeComponent();
             tab = new Tab();
+            tim = new Timer();
+            tim.Show();
         }
 
         private void button_dodaj_Click(object sender, EventArgs e)
@@ -52,8 +55,14 @@ namespace Iskanje
 
         private void button_vsebujebinarno_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(tab.VsebujeBinarno(Convert.ToInt32(textBox1.Text)) ? "Ja vsebuje" : "Ne vsebuje");
-        }
+            try
+            {
+                MessageBox.Show(tab.VsebujeBinarno(Convert.ToInt32(textBox1.Text)) ? "Ja vsebuje" : "Ne vsebuje");
+            } catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            }
 
         private void button_hitrouredi_Click(object sender, EventArgs e)
         {
@@ -68,17 +77,44 @@ namespace Iskanje
 
         private void button_urediizbiranjem_Click(object sender, EventArgs e)
         {
+            tim.Start("UrediIzbiranje");
             tab.Uredi();
             result.Text = tab.ToString();
+            tim.Stop();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            tim.Start("QuickSort");
+            tab.QuickSort(0, tab.dolzina-1);
+            result.Text = tab.ToString();
+            tim.Stop();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            tab.Vstavi();
+            tab.QuickSort(0, tab.dolzina - 1);
+            result.Text = tab.ToString();
+        }
+
+        private void button_uredimehurcki_Click(object sender, EventArgs e)
+        {
+            tim.Start("BubbleSort");
+            tab.Bubble();
+            result.Text = tab.ToString();
+            tim.Stop();
+
+        }
+
     }
     public class Tab
     {
         private int[] Tabela;
-        int dolzina;
+        public int dolzina;
         public Tab()
         {
-            Tabela = new int[100];
+            Tabela = new int[1000];
             dolzina = 0;
         }
         public void Dodaj(int x)
@@ -147,16 +183,58 @@ namespace Iskanje
         public void Vstavi()
         {
             Random rnd = new Random();
-            dolzina = 100;
-            for(int i = 0; i < 100; i++)
+            dolzina = 1000;
+            for(int i = 0; i < 1000; i++)
             {
-                Tabela[i] = rnd.Next(0, 100);
+                Tabela[i] = rnd.Next(0, 1000);
             }
         }
         public double Povprecje()
         {
             //Povprečje() - vrne povprečje števil v tabeli
             return Vsota() / dolzina;
+        }
+        public void Bubble()
+        {
+            bool zamenjava; 
+            int i, tmp;
+
+            do 
+            {
+                zamenjava = false;
+
+                for (i = 0; i < dolzina-1; i++) 
+                {
+                    if (Tabela[i] > Tabela[i + 1]) 
+                    {
+                       
+                        tmp = Tabela[i];
+                        Tabela[i] = Tabela[i + 1];
+                        Tabela[i + 1] = tmp;
+                        zamenjava = true; 
+                    }
+                }
+            } 
+            while (zamenjava);
+
+        }
+        public void QuickSort(int lo, int hi)
+        {
+            int i = lo, j = hi, h;
+            int x = Tabela[(lo + hi) / 2];
+
+            do
+            {
+                while (Tabela[i] < x) i++;
+                while (Tabela[j] > x) j--;
+                if (i <= j)
+                {
+                    h = Tabela[i]; Tabela[i] = Tabela[j]; Tabela[j] = h;
+                    i++; j--;
+                }
+            } while (i <= j);
+            if (lo < j) QuickSort(lo, j);
+            if (i < hi) QuickSort(i, hi);
         }
         public bool VsebujeBinarno(int x)
         {
